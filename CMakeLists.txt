@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
 project(service_caller)
 
+set(CMAKE_BUILD_TYPE "Release")
+
 find_package(ament_cmake REQUIRED)
 
 install(DIRECTORY include
